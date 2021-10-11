@@ -232,13 +232,13 @@ document.getElementById("download-predictions-Unt").addEventListener("click", fu
 });
 
 // Debug functions
-$(document).on('shiny:bound', (event) => {
-    console.log(event.name);
-});
+//$(document).on('shiny:bound', (event) => {
+//    console.log(event.name);
+//});
 
-$(document).on('shiny:unbound', (event) => {
-    console.log(event.name);
-});
+//$(document).on('shiny:unbound', (event) => {
+//    console.log(event.name);
+//});
 
 // Event listener render the uploaded csv file using tabulator
 // CSV file is converted to json using the jquery-csv library
